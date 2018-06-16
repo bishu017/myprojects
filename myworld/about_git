@@ -1,0 +1,24 @@
+steps for git install 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git
+
+set up for git
+ 
+git config –global user.email “your_emailid”
+git config –global user.name “your_username”
+
+git init - intialize git for the folder
+
+Remote set up to tell where git is located
+git remote add origin  https://github.com/your_username/myproject.git 
+
+git congfig -l (gives the info)
+
+Steps to add files in git hub
+
+step 1 : create repo in the git. Name any thing you want.
+step 2 : clone your project in local directory using git clone <URL>
+step 3 : add files using git add . or git add <file name >
+step 4 : commit the changes as git commit -m "your message "
+step 5 : push the changes on remote using git push origin <branch name e.g master>
