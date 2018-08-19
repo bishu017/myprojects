@@ -25,3 +25,4 @@ step 2 : clone your project in local directory using git clone <URL>
 step 3 : add files using git add . or git add <file name >
 step 4 : commit the changes as git commit -m "your message "
 step 5 : push the changes on remote using git push origin <branch name e.g master>
+this is text 2 
